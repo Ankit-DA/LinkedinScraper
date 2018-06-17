@@ -1,10 +1,10 @@
 # Author - Ankit Agarwal
-# Get name of the companies that have been listed on Linkedin by users
+# Get name of the Universities that have been listed on Linkedin by users
 
-# URL of the LinkedIn Company directory page for companies that have names starting from a
+# URL of the LinkedIn Company directory page for Universities that have names starting from a
 # will be of this format
 #
-#user_url <- "https://www.linkedin.com/directory/companies-a/"
+#user_url <- "https://www.linkedin.com/directory/universities-a/"
 #
 # since the information isn't available without being logged in, the web
 # scraper needs to log in. Provide your LinkedIn user/pw here (this isn't stored
