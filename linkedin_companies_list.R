@@ -21,7 +21,7 @@ password <- "password"            #Your Linkedin Password
 library(rvest)
 library(stringr)
 
-#scrape_linkedin <- function(user_url) {
+
 linkedin_url <- "http://linkedin.com/"
 pgsession <- html_session(linkedin_url) 
 pgform <- html_form(pgsession)[[1]]
@@ -61,7 +61,7 @@ for (i in alpha) {
       complist <- c(complist,name[!str_detect(urls,pattern)])
     }
   }
-  Sys.sleep(60*15)  # Sleep for 15 minutes
+  Sys.sleep(60*15)  # Sleep for 15 minutes to avoid getting times out by Linkedin as it might cancel connection as soon as it knows it's a bot
 }
 
 setwd("C:\\Ankit\\Deloitte\\IDO\\")
