@@ -21,7 +21,7 @@ password <- "password"            #Your Linkedin Password
 library(rvest)
 library(stringr)
 
-#scrape_linkedin <- function(user_url) {
+
 linkedin_url <- "http://linkedin.com/"
 pgsession <- html_session(linkedin_url) 
 pgform <- html_form(pgsession)[[1]]
