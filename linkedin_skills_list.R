@@ -1,7 +1,7 @@
 # Author - Ankit Agarwal
-# Get name of the companies that have been listed on Linkedin by users
+# Get name of the skills that have been listed on Linkedin by users
 
-# URL of the LinkedIn Company directory page for companies that have names starting from a
+# URL of the LinkedIn Company directory page for skills that have names starting from a
 # will be of this format
 #
 #user_url <- "https://www.linkedin.com/directory/topics-a/"
